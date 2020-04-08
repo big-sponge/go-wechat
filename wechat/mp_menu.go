@@ -36,11 +36,6 @@ func (model *MpModel) GetMenu() interface{} {
 		panic(err)
 	}
 
-	/*处理返回结果错误*/
-	if response.(map[string]interface{})["errcode"] != nil {
-		panic(response)
-	}
-
 	return response
 }
 
