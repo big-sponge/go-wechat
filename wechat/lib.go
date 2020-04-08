@@ -12,7 +12,7 @@ import (
 /**
  * 封装访Request
  * @author ChengCheng
- * @date 2019-07-14 22:10:18
+ * @date 2020-04-14 22:10:18
  */
 func Request(input map[string]interface{}) (result interface{}, err error) {
 

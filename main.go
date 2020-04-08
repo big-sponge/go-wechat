@@ -13,5 +13,12 @@ func main() {
 		}
 	}()
 
-	fmt.Println(wechat.GetAccessToken())
+
+	wechat.Config(wechat.MpConfigModel{
+		AppId:     "wx030ea3d763b7c9fb",
+		AppSecret: "91b7a02555480e57703874b1244ccdfc",
+	})
+
+
+	fmt.Println(wechat.Menu())
 }
