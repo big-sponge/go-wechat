@@ -40,7 +40,7 @@ func (model *MpModel) GetMenu() interface{} {
 }
 
 /**
- * 拼接AccessToken接口的url
+ * 拼接获取Menu接口的url
  * @author ChengCheng
  * @date 2020-04-14 22:10:18
  */
