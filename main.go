@@ -13,5 +13,5 @@ func main() {
 		}
 	}()
 
-	fmt.Println(wechat.GetAccessToken())
+	fmt.Println([]byte("111111"))
 }
