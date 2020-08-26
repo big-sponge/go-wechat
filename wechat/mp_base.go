@@ -1,5 +1,6 @@
 package wechat
 
+
 var (
 	mp MpModel
 )

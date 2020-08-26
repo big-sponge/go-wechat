@@ -136,4 +136,3 @@ func AddConditionalMenu(menuJson string) interface{} {
 func GetCurrentSelfMenuInfo() interface{} {
 	return mp.GetCurrentSelfMenuInfo()
 }
-

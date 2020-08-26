@@ -74,3 +74,4 @@ func (model *MpModel) GetAccessTokenFormWx() {
 		model.AccessToken.Save.(func(model *MpAccessTokenModel))(&model.AccessToken)
 	}
 }
+
